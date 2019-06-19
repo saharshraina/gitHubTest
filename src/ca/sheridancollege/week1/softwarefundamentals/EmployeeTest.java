@@ -15,7 +15,7 @@ public class EmployeeTest {
         Employee [] empList = new Employee[2];
         Employee temp = new Employee("Jeff","a345",50000);
         empList[0]=temp;
-        empList[1]=new Employee("Alex","b567",109300);
+        empList[1]=new Employee("Alex","b567",10955300);
         
         for(Employee e: empList){
             System.out.println(e.getName());
